@@ -5,7 +5,8 @@
 
 .hero h1 {
     padding-left: 100px;
-    background-image: linear-gradient(267deg, #eda006 10%, #fbdf08 50%);
+    background-image: linear-gradient(267deg, #eda006, #08fb55 50%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
