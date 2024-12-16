@@ -16,7 +16,7 @@ const Hero = () => {
     try {
       const { GoogleGenerativeAI } = await import("@google/generative-ai");
 
-      const genAI = new GoogleGenerativeAI("AIzaSyCyC0_mIW1-nURTgI75uXAovxyZAIMoZos");
+      const genAI = new GoogleGenerativeAI("hi");
       const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
       const result = await model.generateContent(userInput);
