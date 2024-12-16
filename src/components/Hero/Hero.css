@@ -1,0 +1,119 @@
+.hero{
+    margin-top: 120px;
+    
+}
+
+.hero h1 {
+    padding-left: 100px;
+    background-image: linear-gradient(267deg, #eda006 10%, #fbdf08 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.input-container{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin: 0px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-container textarea{
+    width: 800px;
+    border: none;
+    text-decoration: none;
+    padding: 14px 19px;
+    outline: none;
+    border-radius: 15px;
+    font-size: large;
+    height: auto;
+    font-weight: 450;
+}
+.submit button{
+    margin-top: 10px;
+    padding: 15px 13px;
+    border: none;
+    border-radius: 15px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    background-image: linear-gradient(267deg, rgb(5, 247, 231) 0.36%, #7909be 80%); 
+}
+.response-container {
+    background-color: rgb(10, 10, 10);
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    text-align: justify; 
+    border-radius: 15px;
+    margin-left: 8%;
+    /* background: linear-gradient(to right, rgb(94, 240, 68) 10%, rgb(8, 246, 254) 30%, rgb(115, 241, 115) 70%, rgb(212, 255, 0) 100%);
+    -webkit-background-clip: text;
+    color: transparent; */
+    width: 80%;
+    height: auto;
+    margin-top: 50px;
+    padding: 5px 20px; 
+    color: #fbdf08;
+  }
+  
+  .response-container ul {
+    list-style-type: disc; 
+    margin-left: 20px; 
+    color: white; 
+  }
+  
+  .response-container li {
+    margin-bottom: 20px;
+  }
+  
+
+
+  
+  @media (max-width: 992px) {
+    .hero h1 {
+      font-size: 2.5rem;
+      padding-left: 20px;
+    }
+    .input-container textarea {
+      width: 85%;
+    }
+    .response-container {
+      width: 80%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .hero h1 {
+      font-size: 2rem;
+      padding-left: 10px;
+    }
+    .input-container {
+      flex-direction: column;
+    }
+    .input-container textarea {
+      width: 100%;
+    }
+    .response-container {
+      width: 80%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .hero h1 {
+      font-size: 1.5rem;
+      padding-left: 45px;
+    }
+    .input-container{
+      align-items: flex-start;
+    }
+    .input-container textarea{
+        width: 120%;
+    }
+    .response-container {
+        width: 80%;
+      font-size: small;
+      align-items: flex-start;
+      margin-left:10px;
+    }
+  }
