@@ -12,7 +12,7 @@ const Hero = () => {
       return;
     }
 
-    setIsLoading(true); // Show loading state
+    setIsLoading(true); 
     try {
       const { GoogleGenerativeAI } = await import("@google/generative-ai");
 
